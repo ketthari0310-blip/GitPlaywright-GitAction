@@ -16,7 +16,7 @@ const page=await context.newPage()
 
 //load the url
 
-await page.goto("https://www.facebook.com")
+await page.goto("https://www.google.com")
 
 //title page
 
