@@ -6,7 +6,7 @@ test("Launch Browser",async()=>{
 
 //To Launch the Browser
 //By default it will launch the browser in headless mode
-const browser=await webkit.launch({headless:false})
+const browser=await webkit.launch({headless:true})
 
 //to open the window
 const context=await browser.newContext()
